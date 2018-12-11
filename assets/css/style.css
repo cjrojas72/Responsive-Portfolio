@@ -217,6 +217,35 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 768px){
+  
+  #main-container{
+    width: 95%; 
+    margin: 0 auto;
+  }
+
+  nav{
+    margin-right: 2%;
+  }
+
+  .auth-image{
+    width: 40%;
+  }
+
+  .work{
+    margin-left: 5%;
+    width: 40%;
+  }
+
+  #contact-form{
+    width: 100%;
+  }
+
+  #contact-form li{
+    list-style: none;
+  }
+}
+
 @media screen and (max-width: 640px){
   body{
     font-size: 14px;
@@ -251,12 +280,17 @@ input[type=submit] {
   }
 
   .work{
-    width: 100%;
-    margin-bottom: 0%;
+    display: block;
+    width: 90%;
+    margin-bottom: 0;
   }
 
   #contact-form{
     width: 100;
+  }
+  
+  #contact-form li{
+    list-style: none;
   }
 }
 
